@@ -24,10 +24,10 @@ Comprehensive multi-service system for real-time remote monitoring of manufactur
         │   MongoDB Atlas│                        │
         └───────▲────────┘                        │
                 │                                 │
-        ┌───────┴────────┐   Serial + Socket   ┌──┴──────────────────┐
-        │  Auth API       │◄──────────────────►│Raspberry Pi Service  │
-        │ (users/tokens)  │   (multithreading.py)                      │
-        └─────────────────┘   │  │                                    │
+        ┌───────┴────────┐   Serial + Socket   ┌──┴───────────────────────┐
+        │  Auth API       │◄──────────────────►│   Raspberry Pi Service   │
+        │ (users/tokens)  │   (multithreading.py)                         │
+        └─────────────────┘    │  │            └──────────────────────────┘ 
                                │  └─► Arduino (arduinoCode.ino)       │
                                └──── Sensor data -> REST / commands <-│
 └────────────────────────────────────────────────────────────────────────────┘
