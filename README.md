@@ -1,4 +1,4 @@
-# MAT Remote Productivity Monitoring Platform
+# Pieces Project
 
 Comprehensive multi-service system for real-time remote monitoring of manufacturing productivity (pieces produced, speed metrics, shift lifecycle) integrating Arduino + Raspberry Pi hardware with a full web stack (REST APIs, WebSocket layer, Auth service, React client) and MongoDB Atlas persistence.
 
