@@ -1,0 +1,23 @@
+export let saveStatusData = "saveStatus"
+export let newMessagesAlert = "newMessagesAlert"
+export let setMessagesStatuses = "setMessagesStatuses"
+export let addMessage = "addMessage"
+export let resetStore = "resetStore"
+export let setEndGameData = "setEndGameData"
+export let setUserReadiness = "setUserReadiness"
+export let setUserLeftData = "setUserLeftData"
+export let setSketchRelative = "setSketchRelative"
+export let setGameMap = "setGameMap"
+export let setLineOccupy = "setLineOccupy"
+export let setGameData = "setGameData"
+export let setUrl = "setUrl"
+export let setStatus = "setStatus"
+export let setUsers = "setUsers"
+export let goToLobbyOps = "goToLobbyOps"
+
+export const increment = 'INCREMENT';
+export const decrement = 'DECREMENT';
+export const sendSocket = "SEND_SOCKET";
+export const receiveSocket = "RECEIVE_SOCKET";
+export const setSocketID = "SET_SOCKET_ID";
+export const setError = "SET_ERROR";
