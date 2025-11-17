@@ -10,7 +10,7 @@ Comprehensive multi-service system for real-time remote monitoring of manufactur
 │  - UX for monitoring, calibration, users, shifts                           │
 │  - Talks to REST API (metrics) & Auth API (identity) via HTTP              │
 │  - Real-time updates via Socket.IO client                                  │
-└───────────────▲───────────────────────────────┬───────────────────────────┘
+└───────────────▲────────────────────────────────┬───────────────────────────┘
                 │                               │
           HTTP / JSON                      WebSocket events
                 │                               │
